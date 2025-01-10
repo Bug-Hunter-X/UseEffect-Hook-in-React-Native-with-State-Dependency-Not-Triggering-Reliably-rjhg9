@@ -1,0 +1,1 @@
+This error occurs when using the `useEffect` hook in React Native with a callback function that depends on a value from the component's state.  If the state value changes, the callback might not be triggered as expected, leading to unexpected behavior or a stale closure issue. This is particularly problematic when the effect depends on a state value that changes frequently.
